@@ -76,7 +76,6 @@ class RegisterController extends Controller
     }
 
     protected function showRegistrationForm(){    
-        $formData = formform_registro::paginate(5);
-        return view('auth.register2',['formData' => $formData]);
+        return view('auth.register3');
     }
 }

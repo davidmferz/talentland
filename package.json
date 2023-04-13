@@ -13,6 +13,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
-        "@csstools/selector-specificity": "2.0.0"
+        "@csstools/selector-specificity": "2.0.0",
+        "chart.js": "^4.2.1"
     }
 }
